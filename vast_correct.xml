@@ -1,0 +1,45 @@
+<VAST version="3.0">
+  <Ad id="VPAID_Selector_Ad">
+    <InLine>
+      <AdSystem>VPAID Selector System</AdSystem>
+      <AdTitle>VPAID Video Selector</AdTitle>
+      <Description>Interactive VPAID 2.0 unit with dual video selection</Description>
+      <Impression><![CDATA[https://bs.serving-sys.ru/Serving/adServer.bs?cn=display&c=19&pli=1088609653&adid=1088609654&ord=[timestamp]&pcp=$${%SITEID%}$$]]></Impression>
+      <Creatives>
+        <Creative sequence="1">
+          <Linear>
+            <Duration>00:00:30</Duration>
+            <MediaFiles>
+              <MediaFile delivery="progressive" type="application/javascript" width="1280" height="720" apiFramework="VPAID">
+                <![CDATA[https://static.kimberlite.io/upload/multon_selector_nov/vpaid.js]]>
+              </MediaFile>
+            </MediaFiles>
+            <VideoClicks>
+              <ClickThrough><![CDATA[https://bs.serving-sys.ru/Serving/adServer.bs?cn=trd&pli=1088609653&adid=1088609654&ord={%CACHEBUSTER%}&LineID=$$site_id={%SITEID%}&erid=[erir_token]$$]]></ClickThrough>
+            </VideoClicks>
+            <AdParameters>
+            <![CDATA[
+              {
+                "staticImageUrl": "https://static.kimberlite.io/upload/multon_selector_nov/background.png",
+                "autoStartTimeoutMs": 10000,
+                "videoOptions": [
+                  {
+                    "id": "video1",
+                    "videoUrl": "https://static.kimberlite.io/upload/multon_selector_nov/video1.mp4",
+                    "clickThroughUrl": "https://bs.serving-sys.ru/Serving/adServer.bs?cn=trd&pli=1088609653&adid=1088609654&ord={%CACHEBUSTER%}&LineID=$$site_id={%SITEID%}&erid=[erir_token]$$"
+                  },
+                  {
+                    "id": "video2",
+                    "videoUrl": "https://static.kimberlite.io/upload/multon_selector_nov/video2.mp4",
+                    "clickThroughUrl": "https://bs.serving-sys.ru/Serving/adServer.bs?cn=trd&pli=1088609653&adid=1088609654&ord={%CACHEBUSTER%}&LineID=$$site_id={%SITEID%}&erid=[erir_token]$$"
+                  }
+                ]
+              }
+            ]]>
+            </AdParameters>
+          </Linear>
+        </Creative>
+      </Creatives>
+    </InLine>
+  </Ad>
+</VAST>
