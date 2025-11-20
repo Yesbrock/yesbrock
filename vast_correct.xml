@@ -11,7 +11,7 @@
             <Duration>00:00:30</Duration>
             <MediaFiles>
               <MediaFile delivery="progressive" type="application/javascript" width="1280" height="720" apiFramework="VPAID">
-                <![CDATA[https://static.kimberlite.io/upload/multon_selector_nov/vpaid.js]]>
+                <![CDATA[https://raw.githubusercontent.com/Yesbrock/yesbrock/refs/heads/main/vpaid.js]]>
               </MediaFile>
             </MediaFiles>
             <VideoClicks>
