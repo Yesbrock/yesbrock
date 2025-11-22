@@ -4,7 +4,7 @@
       <AdSystem>VPAID Selector System</AdSystem>
       <AdTitle>VPAID Video Selector</AdTitle>
       <Description>Interactive VPAID 2.0 unit with dual video selection</Description>
-      <Impression><![CDATA[https://bs.serving-sys.ru/Serving/adServer.bs?cn=display&c=19&pli=1088609653&adid=1088609654&ord=[timestamp]&pcp=$${%SITEID%}$$]]></Impression>
+      <Impression><![CDATA[https://example.com/impression]]></Impression>
       <Creatives>
         <Creative sequence="1">
           <Linear>
@@ -15,7 +15,7 @@
               </MediaFile>
             </MediaFiles>
             <VideoClicks>
-              <ClickThrough><![CDATA[https://bs.serving-sys.ru/Serving/adServer.bs?cn=trd&pli=1088609653&adid=1088609654&ord={%CACHEBUSTER%}&LineID=$$site_id={%SITEID%}&erid=[erir_token]$$]]></ClickThrough>
+              <ClickThrough><![CDATA[https://example.com/click]]></ClickThrough>
             </VideoClicks>
             <AdParameters>
             <![CDATA[
@@ -33,7 +33,9 @@
                     "videoUrl": "https://static.kimberlite.io/upload/multon_selector_nov/video2.mp4",
                     "clickThroughUrl": "https://bs.serving-sys.ru/Serving/adServer.bs?cn=trd&pli=1088609653&adid=1088609654&ord={%CACHEBUSTER%}&LineID=$$site_id={%SITEID%}&erid=[erir_token]$$"
                   }
-                ]
+                ],
+                "customPixelBaseUrl": "[INSERT_CUSTOM_PIXEL_BASE_URL_HERE]",
+                "customPixelCommonParams": "&campaign_id=[multon_nov]"
               }
             ]]>
             </AdParameters>
